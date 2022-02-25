@@ -8,8 +8,9 @@ This repository holds a Dockerfile to provide the needed toolchain for building 
 
 ## Run
 1. checkout repo and cd into
-2. ```docker-compose up -d --build```
-3. ```docker exec -it aosp_builder bash```
+2. change gitconfig file using your full name and email
+3. ```docker-compose up -d --build```
+4. ```docker exec -it aosp_builder bash```
 
 ## Download AOSP source
 This follows the normal AOSP approach, e.g.
