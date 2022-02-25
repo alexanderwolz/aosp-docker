@@ -7,8 +7,7 @@ This repository holds a Dockerfile to provide the needed toolchain for building 
 2. see https://docs.docker.com/engine/install/debian/ and https://docs.docker.com/compose/install/
 
 ## Run
-1. checkout repo and cd into
-2. change gitconfig file using your full name and email
+1. checkout repo and change ```config/gitconfig``` file using your full name and email
 3. ```docker-compose up -d --build```
 4. ```docker exec -it aosp_builder bash```
 
