@@ -1,4 +1,4 @@
-# AOSP Docker for AOSP12+
+# Dockerfile for AOSP12+
 
 This repository holds a Dockerfile to provide the needed toolchain for building AOSP12
 
