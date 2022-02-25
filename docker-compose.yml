@@ -1,0 +1,12 @@
+version: "3.9"
+services:
+  builder:
+    container_name: aosp_builder
+    hostname: aosp_builder
+    build: ./build
+    restart: unless-stopped
+    volumes: 
+      - /etc/localtime:/etc/localtime:ro
+      - ./config/gitconfig:/root/.gitconfig:ro
+      - ~/aosp:/aosp:rw
+      - ~/ccache:/ccache:rw
