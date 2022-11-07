@@ -1,6 +1,6 @@
-# Dockerfile for AOSP12+
+# Dockerfile for AOSP13+
 
-This repository holds a Dockerfile to provide the needed toolchain for building AOSP12
+This repository holds a Dockerfile to provide the needed toolchain for building AOSP13
 
 ## Install Docker CE and Compose
 1. Install Docker CE and Docker-Compose on your host machine (recommended: Debian, 30GB+, 8 Cores, 250GB+ HDD)
@@ -13,7 +13,7 @@ This repository holds a Dockerfile to provide the needed toolchain for building 
 
 ## Download AOSP source
 This follows the normal AOSP approach, e.g.
-1. ```repo init --depth=1 -u https://android.googlesource.com/platform/manifest -b android12-qpr1-release```
+1. ```repo init --depth=1 -u https://android.googlesource.com/platform/manifest -b android-13.0.0_r11```
 2. ```repo sync -c --no-tags --no-clone-bundle -j$(nproc --all)```
 
 ## Build AOSP
