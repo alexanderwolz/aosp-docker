@@ -1,5 +1,15 @@
 # Build Container for AOSP13+ (Docker)
 
+![GitHub release (latest by date)](https://img.shields.io/github/v/release/alexanderwolz/AOSP_Docker)
+![GitHub](https://img.shields.io/badge/aosp-13-orange)
+![GitHub](https://img.shields.io/badge/docker-23.0.1-orange)
+![GitHub](https://img.shields.io/badge/docker_compose-1.29.2-orange)
+![GitHub](https://img.shields.io/github/license/alexanderwolz/AOSP_Docker)
+![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/alexanderwolz/AOSP_Docker)
+![GitHub all releases](https://img.shields.io/github/downloads/alexanderwolz/AOSP_Docker/total?color=informational)
+
+## About
+
 This repository holds a Dockerfile to provide the needed toolchain for building AOSP13
 
 ## Install Docker CE and Compose
