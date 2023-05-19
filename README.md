@@ -4,7 +4,7 @@
 ![GitHub](https://img.shields.io/badge/aosp-13-orange)
 ![GitHub](https://img.shields.io/badge/docker-23.0.1-orange)
 ![GitHub](https://img.shields.io/badge/docker_compose-1.29.2-orange)
-![GitHub](https://img.shields.io/github/license/alexanderwolz/AOSP_Docker)
+![GitHub](https://img.shields.io/github/license/alexanderwolz/aosp-docker)
 ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/alexanderwolz/aosp-docker)
 ![GitHub all releases](https://img.shields.io/github/downloads/alexanderwolz/aosp-docker/total?color=informational)
 
