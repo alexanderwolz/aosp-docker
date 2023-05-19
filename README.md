@@ -1,12 +1,12 @@
 # Build Container for AOSP13+ (Docker)
 
-![GitHub release (latest by date)](https://img.shields.io/github/v/release/alexanderwolz/AOSP_Docker)
+![GitHub release (latest by date)](https://img.shields.io/github/v/release/alexanderwolz/aosp-docker)
 ![GitHub](https://img.shields.io/badge/aosp-13-orange)
 ![GitHub](https://img.shields.io/badge/docker-23.0.1-orange)
 ![GitHub](https://img.shields.io/badge/docker_compose-1.29.2-orange)
 ![GitHub](https://img.shields.io/github/license/alexanderwolz/AOSP_Docker)
-![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/alexanderwolz/AOSP_Docker)
-![GitHub all releases](https://img.shields.io/github/downloads/alexanderwolz/AOSP_Docker/total?color=informational)
+![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/alexanderwolz/aosp-docker)
+![GitHub all releases](https://img.shields.io/github/downloads/alexanderwolz/aosp-docker/total?color=informational)
 
 ## About
 
