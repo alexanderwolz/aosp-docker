@@ -1,7 +1,7 @@
 # Build Container for AOSP13+ (Docker)
 
 ![GitHub release (latest by date)](https://img.shields.io/github/v/release/alexanderwolz/aosp-docker)
-![GitHub](https://img.shields.io/badge/aosp-13-orange)
+![GitHub](https://img.shields.io/badge/aosp-14-orange)
 ![GitHub](https://img.shields.io/badge/docker-23.0.1-orange)
 ![GitHub](https://img.shields.io/badge/docker_compose-1.29.2-orange)
 ![GitHub](https://img.shields.io/github/license/alexanderwolz/aosp-docker)
@@ -10,7 +10,7 @@
 
 ## About
 
-This repository holds a Dockerfile to provide the needed toolchain for building AOSP13
+This repository holds a Dockerfile to provide the needed toolchain for building AOSP14+
 
 ## Install Docker CE and Compose
 1. Install Docker CE and Docker-Compose on your host machine (recommended: Debian, 30GB+, 8 Cores, 250GB+ HDD)
@@ -23,7 +23,7 @@ This repository holds a Dockerfile to provide the needed toolchain for building 
 
 ## Download AOSP source
 This follows the normal AOSP approach, e.g.
-1. ```repo init --depth=1 -u https://android.googlesource.com/platform/manifest -b android-13.0.0_r11```
+1. ```repo init --depth=1 -u https://android.googlesource.com/platform/manifest -b android-14.0.0_r14```
 2. ```repo sync -c --no-tags --no-clone-bundle -j$(nproc --all)```
 
 ## Build AOSP

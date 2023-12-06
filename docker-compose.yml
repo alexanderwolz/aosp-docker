@@ -8,6 +8,6 @@ services:
     volumes: 
       - /etc/localtime:/etc/localtime:ro
       - /etc/timezone:/etc/timezone:ro
-      - ./config/gitconfig:/root/.gitconfig:ro
+      - ./config/gitconfig:/home/aosp/.gitconfig:ro
       - ~/aosp:/aosp:rw
       - ~/ccache:/ccache:rw
