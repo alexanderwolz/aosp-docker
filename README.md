@@ -1,4 +1,4 @@
-# Build Container for AOSP13+ (Docker)
+# Build Container for AOSP (Docker)
 
 ![GitHub release (latest by date)](https://img.shields.io/github/v/release/alexanderwolz/aosp-docker)
 ![GitHub](https://img.shields.io/badge/aosp-14-orange)
