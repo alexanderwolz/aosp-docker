@@ -23,11 +23,23 @@ This repository holds a Dockerfile to provide the needed toolchain for building 
 
 ## Download AOSP source
 This follows the normal AOSP approach, e.g.
-1. ```repo init --depth=1 -u https://android.googlesource.com/platform/manifest -b android-14.0.0_r14```
+1. ```repo init --depth=1 -u https://android.googlesource.com/platform/manifest -b android-14.0.0_r17```
 2. ```repo sync -c --no-tags --no-clone-bundle -j$(nproc --all)```
+
+See also [Android tags](https://source.android.com/docs/setup/about/build-numbers)
 
 ## Build AOSP
 This follows the normal AOSP approach, e.g.
 1. ```source build/envsetup.sh```
 2. ```lunch aosp_car_arm64```
-3. ```m -j$(nproc --all)```
+3. ```rm -rf /aosp/out``` (cleans build target folder)
+4. ```m -j$(nproc --all)```
+
+## Tips
+
+Use screen on your docker host if you connect via ssh
+1. ```screen -S aosp``` creates a screen session
+2. ```screen -r aosp``` attaches to a screen session
+3. ```screen -d``` or ```CTRL+a + CTRL+d``` detaches a screen 
+session
+4. ```exit``` closes a screen session
