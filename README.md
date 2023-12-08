@@ -23,7 +23,7 @@ This repository holds a Dockerfile to provide the needed toolchain for building 
 
 ## Download AOSP source
 This follows the normal AOSP approach, e.g.
-1. ```repo init --depth=1 -u https://android.googlesource.com/platform/manifest -b android-14.0.0_r17```
+1. ```repo init --depth=1 -u https://android.googlesource.com/platform/manifest -b android-14.0.0_r14```
 2. ```repo sync -c --no-tags --no-clone-bundle -j$(nproc --all)```
 
 See also [Android tags](https://source.android.com/docs/setup/about/build-numbers)
